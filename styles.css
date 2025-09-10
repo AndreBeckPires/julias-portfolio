@@ -1,0 +1,46 @@
+header {
+    color: #ffffff;
+    padding: 64px;
+    display: flex;
+    justify-content: space-between; /* alinha horizontalmente no espaço disponível */
+    align-items: center;   
+    font-size: 24px;
+  }
+
+header div{
+    display: flex;
+    justify-content: space-between; /* alinha horizontalmente no espaço disponível */
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 400;
+
+}
+header a{
+    padding: 0px 0px 0px 20px;
+}
+body{
+    background-color: #1E1E1E;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.introblock{
+    margin: 140px 32px 100px;
+    display: block;
+}
+.introblock p{
+    padding: 0;
+}
+.aboutme{
+    color: #fff;
+    text-transform: none;
+    max-width: 1180px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Instrument Serif, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 125%;
+}
