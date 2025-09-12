@@ -51,11 +51,21 @@ a{
     margin-top: 0;
     margin-bottom: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 400;
     line-height: 125%;
 }
-
+.projectdescription{
+    color: #fff;
+    text-transform: none;
+    max-width: 1180px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 125%;
+}
 .icon{
     align-items: center;
     margin: 140px 32px 100px;
@@ -64,9 +74,7 @@ a{
     box-sizing: border-box;
 }
 
-img{
-    height: 100%;
-}
+
 
 .project{
     margin: 140px 32px 100px;
@@ -84,10 +92,11 @@ img{
     color: white;
     text-decoration-line: underline;   
 }
-.project img{
-    height: 540px;
-    width: 960px;
-}
+.project img {
+    width: 100%;
+    height: auto;
+    max-width: 960px; /* opcional, para não ficar maior que tal valor */
+  }
 
 
 .footer{
