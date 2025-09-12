@@ -122,6 +122,9 @@ footer {
   
   .footercontent {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   footer p {
@@ -143,7 +146,7 @@ footer {
   }
 
   .disclaimer{
-    font-size: 30px;
+    font-size: 15px;
     font-style: italic;
   }
 
@@ -171,6 +174,49 @@ footer {
     color: #fff; /* cor de valor, mais destacada */
     /* você pode usar font-weight, etc. */
   }
+
+  .scroll-to-top {
+    /* Estilo do fundo e borda */
+    background-color: #FFFFFF; /* Fundo branco */
+    border: none; /* Sem borda */
+    border-radius: 50px; /* Cantos bem arredondados para um formato de pílula */
+    padding: 12px 25px; /* Espaçamento interno */
+    
+    /* Estilo do texto */
+    color: #000000; /* Texto preto */
+    font-family: Arial, sans-serif; /* Fonte similar à do seu projeto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: 500; /* Peso da fonte para parecer um pouco mais robusto */
+    
+    /* Disposição do conteúdo (seta e texto) */
+    display: flex; /* Para alinhar a seta e o texto */
+    align-items: center; /* Alinha verticalmente no centro */
+    gap: 8px; /* Espaço entre a seta e o texto */
+    
+    /* Cursor e transição ao passar o mouse */
+    cursor: pointer; /* Indica que é clicável */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para hover */
+}
+
+.scroll-to-top:hover {
+    background-color: #e0e0e0; /* Um cinza claro para o hover */
+    /* Você pode mudar a cor do texto também se quiser: */
+    /* color: #333333; */
+}
+
+/* Se você usar um span separado para a seta */
+.scroll-to-top .arrow {
+    font-size: 22px; /* Aumenta um pouco o tamanho da seta para destaque */
+    line-height: 1; /* Garante que a seta não adicione espaço extra */
+}
+
+/* Para posicionar o botão na página (ex: no canto inferior direito) */
+.scroll-to-top-container { /* Crie um div para encapsular o botão para posicionamento */
+    position: fixed; /* Fixa na tela */
+    bottom: 30px; /* Distância do fundo */
+    right: 30px; /* Distância da direita */
+    z-index: 999; /* Garante que fique acima de outros elementos */
+}
   
   /* Responsivo: em telas menores, empilha ou reduz número de colunas */
   @media (max-width: 800px) {
