@@ -19,8 +19,13 @@ header a{
     padding: 0px 0px 0px 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+#title{
+    padding: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
-    background-color: #1E1E1E;
+    background-color: #050706;
     font-family: Arial, Helvetica, sans-serif;
 }
 main{
@@ -122,6 +127,53 @@ footer {
 
   a:hover{
     text-decoration: underline;
+  }
+
+  .italico{
+    font-style: italic;
+  }
+
+  .disclaimer{
+    font-size: 30px;
+    font-style: italic;
+  }
+
+  .info-grid {
+    margin: 100px 32px 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas iguais */
+    gap: 20px; /* espaço entre colunas */
+    align-items: start; /* alinha os itens no topo da célula */
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-label {
+    font-size: 1.3rem;
+    color: #aaa; /* cor de label, mais clara */
+    margin-bottom: 5px;
+  }
+  
+  .info-value {
+    font-size: 1.4rem;
+    color: #fff; /* cor de valor, mais destacada */
+    /* você pode usar font-weight, etc. */
+  }
+  
+  /* Responsivo: em telas menores, empilha ou reduz número de colunas */
+  @media (max-width: 800px) {
+    .info-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .info-grid {
+      grid-template-columns: 1fr;
+    }
   }
 /* Dispositivos com largura máxima de 768px (tablets e smartphones) */
 @media (max-width: 768px) {
