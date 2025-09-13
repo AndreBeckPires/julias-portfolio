@@ -69,6 +69,18 @@ a {
   line-height: 125%;
 }
 
+.aboutmereduced {
+  color: #fff;
+  text-transform: none;
+  max-width: 1180px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
 .projectdescription {
   color: #fff;
   text-transform: none;
