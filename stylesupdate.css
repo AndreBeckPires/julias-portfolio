@@ -1,254 +1,446 @@
 header {
-    color: #ffffff;
-    padding: 64px;
-    display: flex;
-    justify-content: space-between; /* alinha horizontalmente no espaço disponível */
-    align-items: center;   
-    font-size: 24px;
-  }
-
-header div{
-    display: flex;
-    justify-content: space-between; /* alinha horizontalmente no espaço disponível */
-    align-items: center;
-    box-sizing: border-box;
-    font-weight: 400;
-
-}
-header a{
-    padding: 0px 0px 0px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#title{
-    padding: 0px 0px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  padding: 64px;
+  display: flex;
+  justify-content: space-between;
+  /* alinha horizontalmente no espaço disponível */
+  align-items: center;
+  font-size: 24px;
 }
 
-body{
-    background-color: #050706;
-    font-family: Arial, Helvetica, sans-serif;
+header div {
+  display: flex;
+  justify-content: space-between;
+  /* alinha horizontalmente no espaço disponível */
+  align-items: center;
+  box-sizing: border-box;
+  font-weight: 400;
+
 }
-main{
-    padding: 0px 0px 0px 20px;
-    font-family: Arial, Helvetica, sans-serif;
+
+header a {
+  padding: 0px 0px 0px 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-a{
-    color: #ffffff;
-    text-decoration: none;
+
+#title {
+  padding: 0px 0px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.introblock{
-    margin: 140px 32px 100px;
-    display: block;
+
+body {
+  background-color: #050706;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.introblock p{
-    display: flex;
-    margin: 0;
+
+main {
+  padding: 0px 0px 0px 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.aboutme{
-    color: #fff;
-    text-transform: none;
-    max-width: 1180px;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 125%;
+
+a {
+  color: #ffffff;
+  text-decoration: none;
 }
-.projectdescription{
-    color: #fff;
-    text-transform: none;
-    max-width: 1180px;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 125%;
+
+.introblock {
+  margin: 140px 32px 100px;
+  display: block;
 }
-.icon{
-    align-items: center;
-    margin: 140px 32px 100px;
-    display: flex;
-    position: static;
-    box-sizing: border-box;
+
+.introblock p {
+  display: flex;
+  margin: 0;
+}
+
+#personas {
+  margin: 140px 32px 16px;
+}
+
+.aboutme {
+  color: #fff;
+  text-transform: none;
+  max-width: 1180px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.projectdescription {
+  color: #fff;
+  text-transform: none;
+  max-width: 1180px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.icon {
+  align-items: center;
+  margin: 140px 32px 100px;
+  display: flex;
+  position: static;
+  box-sizing: border-box;
 }
 
 
 
-.project{
-    margin: 140px 32px 100px;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 33% 66%;
-    color:white;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    place-items: center; 
+.project {
+  margin: 140px 32px 100px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 33% 66%;
+  color: white;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  place-items: center;
+}
+
+.projectindetails {
+  margin: 140px 32px 100px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: white;
+  font-size: 24px;
+  column-gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  place-items: center;
+}
+
+.projectindetailshigh {
+  margin: 0px 32px 100px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: white;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  place-items: center;
+}
+.projectindetails li {
+  font-size: 16px;
+}
+
+.projectindetails img {
+  width: 100%;
+  height: auto;
+  max-width: 960px;
+  /* opcional, para não ficar maior que tal valor */
+}
+
+.projectindetailspersonas {
+  margin: 0px 32px 100px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* três colunas de mesma largura */
+  color: white;
+  font-size: 24px;
+  column-gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  place-items: center;
+}
+
+.projectindetailspersonas img {
+  width: 100%;
+  height: auto;
+  max-width: 960px;
+  /* opcional, para não ficar maior que tal valor */
 }
 
 
-.project a{
-    color: white;
-    text-decoration-line: underline;   
+#value {
+  font-size: 56px;
 }
+
+#label {
+  font-size: 16px;
+}
+
+.project a {
+  color: white;
+  text-decoration-line: underline;
+}
+
 .project img {
-    width: 100%;
-    height: auto;
-    max-width: 960px; /* opcional, para não ficar maior que tal valor */
-  }
-
-
-.footer{
-    margin: 140px 10% 100px; 
-    color: white;
+  width: 100%;
+  height: auto;
+  max-width: 960px;
+  /* opcional, para não ficar maior que tal valor */
 }
-.footer img{
-    max-width: 100%;
-    height: auto;
+
+
+.grid-2x2 {
+  gap: 32px;
+  margin: 0px 40px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 2 colunas com tamanho igual */
+  grid-template-rows: repeat(2, auto);
+  /* 2 linhas, cada linha ajusta pela altura automática */
+
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  max-width: 960px;
+}
+
+.footer {
+  margin: 140px 10% 100px;
+  color: white;
+}
+
+.footer img {
+  width: 100%;
+  height: auto;
+  max-width: 960px;
+  /* opcional, para não ficar maior que tal valor */
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 140px 32px 100px;
-    padding: 60px;
-    color: white;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .footercontent {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  footer p {
-    color: white;
-    text-decoration: none;
-    margin: 20px;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 140px 32px 100px;
+  padding: 60px;
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  a:hover{
-    text-decoration: underline;
-  }
+.footercontent {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .italico{
-    font-style: italic;
-  }
+footer p {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
 
-  .disclaimer{
-    font-size: 15px;
-    font-style: italic;
-  }
+footer a:hover {
+  text-decoration: underline;
+}
 
-  .info-grid {
-    margin: 100px 32px 100px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 colunas iguais */
-    gap: 20px; /* espaço entre colunas */
-    align-items: start; /* alinha os itens no topo da célula */
-  }
-  
-  .info-item {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .info-label {
-    font-size: 1.3rem;
-    color: #aaa; /* cor de label, mais clara */
-    margin-bottom: 5px;
-  }
-  
-  .info-value {
-    font-size: 1.4rem;
-    color: #fff; /* cor de valor, mais destacada */
-    /* você pode usar font-weight, etc. */
-  }
+a:hover {
+  text-decoration: underline;
+}
 
-  .scroll-to-top {
-    /* Estilo do fundo e borda */
-    background-color: #FFFFFF; /* Fundo branco */
-    border: none; /* Sem borda */
-    border-radius: 50px; /* Cantos bem arredondados para um formato de pílula */
-    padding: 12px 25px; /* Espaçamento interno */
-    
-    /* Estilo do texto */
-    color: #000000; /* Texto preto */
-    font-family: Arial, sans-serif; /* Fonte similar à do seu projeto */
-    font-size: 18px; /* Tamanho da fonte */
-    font-weight: 500; /* Peso da fonte para parecer um pouco mais robusto */
-    
-    /* Disposição do conteúdo (seta e texto) */
-    display: flex; /* Para alinhar a seta e o texto */
-    align-items: center; /* Alinha verticalmente no centro */
-    gap: 8px; /* Espaço entre a seta e o texto */
-    
-    /* Cursor e transição ao passar o mouse */
-    cursor: pointer; /* Indica que é clicável */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para hover */
+.italico {
+  font-style: italic;
+}
+
+.disclaimer {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.highlighttest{
+  color: white;
+  text-align: right;
+  margin: 0px 32px 0px;
+}
+
+.info-grid {
+  margin: 100px 32px 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 colunas iguais */
+  gap: 20px;
+  /* espaço entre colunas */
+  align-items: start;
+  /* alinha os itens no topo da célula */
+}
+
+#internalgrid {
+  margin: 100px 0px 100px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-label {
+  font-size: 1.3rem;
+  color: #aaa;
+  /* cor de label, mais clara */
+  margin-bottom: 5px;
+}
+
+.info-value {
+  font-size: 1.4rem;
+  color: #fff;
+  /* cor de valor, mais destacada */
+  /* você pode usar font-weight, etc. */
+}
+
+.scroll-to-top {
+  /* Estilo do fundo e borda */
+  background-color: #FFFFFF;
+  /* Fundo branco */
+  border: none;
+  /* Sem borda */
+  border-radius: 50px;
+  /* Cantos bem arredondados para um formato de pílula */
+  padding: 12px 25px;
+  /* Espaçamento interno */
+
+  /* Estilo do texto */
+  color: #000000;
+  /* Texto preto */
+  font-family: Arial, sans-serif;
+  /* Fonte similar à do seu projeto */
+  font-size: 18px;
+  /* Tamanho da fonte */
+  font-weight: 500;
+  /* Peso da fonte para parecer um pouco mais robusto */
+
+  /* Disposição do conteúdo (seta e texto) */
+  display: flex;
+  /* Para alinhar a seta e o texto */
+  align-items: center;
+  /* Alinha verticalmente no centro */
+  gap: 8px;
+  /* Espaço entre a seta e o texto */
+
+  /* Cursor e transição ao passar o mouse */
+  cursor: pointer;
+  /* Indica que é clicável */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  /* Transição suave para hover */
 }
 
 .scroll-to-top:hover {
-    background-color: #e0e0e0; /* Um cinza claro para o hover */
-    /* Você pode mudar a cor do texto também se quiser: */
-    /* color: #333333; */
+  background-color: #e0e0e0;
+  /* Um cinza claro para o hover */
+  /* Você pode mudar a cor do texto também se quiser: */
+  /* color: #333333; */
 }
 
 /* Se você usar um span separado para a seta */
 .scroll-to-top .arrow {
-    font-size: 22px; /* Aumenta um pouco o tamanho da seta para destaque */
-    line-height: 1; /* Garante que a seta não adicione espaço extra */
+  font-size: 22px;
+  /* Aumenta um pouco o tamanho da seta para destaque */
+  line-height: 1;
+  /* Garante que a seta não adicione espaço extra */
 }
 
 /* Para posicionar o botão na página (ex: no canto inferior direito) */
-.scroll-to-top-container { /* Crie um div para encapsular o botão para posicionamento */
-    position: fixed; /* Fixa na tela */
-    bottom: 30px; /* Distância do fundo */
-    right: 30px; /* Distância da direita */
-    z-index: 999; /* Garante que fique acima de outros elementos */
+.scroll-to-top-container {
+  /* Crie um div para encapsular o botão para posicionamento */
+  position: fixed;
+  /* Fixa na tela */
+  bottom: 30px;
+  /* Distância do fundo */
+  right: 30px;
+  /* Distância da direita */
+  z-index: 999;
+  /* Garante que fique acima de outros elementos */
 }
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 => 9/16 = 0.5625 = 56.25% */
+  height: 0;
+  overflow: hidden;
+  margin: 140px 0px 100px;
+  display: block;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.introblockquote {
+  margin: 140px 32px 100px;
+  display: flex;justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  font-style: italic;
   
-  /* Responsivo: em telas menores, empilha ou reduz número de colunas */
-  @media (max-width: 800px) {
-    .info-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
+}
+
+.quote-container {
+  width: 100%;
+  max-width: 800px; /* Limite a largura para que o texto não ocupe a tela inteira */
+  padding: 0 20px; /* Adiciona espaçamento interno nas laterais */
+  text-align: center;
+  color: white;
+  display: flex; /* Habilita o Flexbox */
   
-  @media (max-width: 500px) {
-    .info-grid {
-      grid-template-columns: 1fr;
-    }
+}
+
+
+.quote-text {
+  font-size: 24px; /* Tamanho da fonte grande para a citação */
+  font-style: italic; /* Texto em itálico */
+  line-height: 1.5; /* Espaçamento entre linhas */
+  margin-bottom: 20px; /* Espaço entre a citação e a fonte */
+}
+
+.quote-text p {
+  margin: 0; /* Remover margem padrão dos parágrafos */
+}
+
+.quote-source {
+  font-size: 1.2rem; /* Tamanho da fonte menor para a fonte */
+  opacity: 0.8; /* Transparência para o texto da fonte */
+  text-align: right; /* Alinhar a fonte à direita */
+}
+/* Responsivo: em telas menores, empilha ou reduz número de colunas */
+@media (max-width: 800px) {
+  .info-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media (max-width: 500px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Dispositivos com largura máxima de 768px (tablets e smartphones) */
 @media (max-width: 768px) {
-    header {
-      font-size: 4.5vw;
-      padding: 5vw;
-    }
-  
-    .aboutme {
-      font-size: 6vw;
-    }
-  
-    .project {
-      grid-template-columns: 1fr;
-      font-size: 4vw;
-    }
-  
-    footer {
-      font-size: 3.5vw;
-      padding: 8vw;
-    }
+  header {
+    font-size: 4.5vw;
+    padding: 5vw;
   }
-  
+
+  .aboutme {
+    font-size: 6vw;
+  }
+
+  .project {
+    grid-template-columns: 1fr;
+    font-size: 4vw;
+  }
+
+  footer {
+    font-size: 3.5vw;
+    padding: 8vw;
+  }
+}
